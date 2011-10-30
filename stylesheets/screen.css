@@ -69,14 +69,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: url('../img/layout-s27ded14696.png') no-repeat;
 }
 
-/* line 6, ../sass/screen.sass */
+/* line 8, ../sass/screen.sass */
 body {
   min-width: 980px;
   font-family: "Istok Web", Helvetica, Arial, sans-serif;
   color: #333333;
 }
 
-/* line 11, ../sass/screen.sass */
+/* line 13, ../sass/screen.sass */
 h1 {
   background-position: 0 0;
   width: 543px;
@@ -90,18 +90,18 @@ h1 {
   font-family: Helvetica, Arical, sans-serif;
 }
 
-/* line 23, ../sass/screen.sass */
+/* line 25, ../sass/screen.sass */
 a:link, a:visited {
   color: #999999;
   text-decoration: none;
 }
 
-/* line 27, ../sass/screen.sass */
+/* line 29, ../sass/screen.sass */
 #main {
   margin: 20px 0 20px 0;
 }
 
-/* line 30, ../sass/screen.sass */
+/* line 32, ../sass/screen.sass */
 #outer-container {
   height: 100%;
   width: 100%;
@@ -109,7 +109,7 @@ a:link, a:visited {
   vertical-align: middle;
 }
 
-/* line 36, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 #container {
   height: 820px;
   position: relative;
@@ -117,8 +117,18 @@ a:link, a:visited {
   display: table-cell;
 }
 
-/* line 42, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 #inner-container {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   width: 510px;
   background: white;
   background: rgba(255, 255, 255, 0.8);
@@ -128,7 +138,7 @@ a:link, a:visited {
   position: relative;
 }
 
-/* line 52, ../sass/screen.sass */
+/* line 56, ../sass/screen.sass */
 footer .copy {
   margin-top: 40px;
   padding-top: 40px;
@@ -136,15 +146,15 @@ footer .copy {
   font-size: 85%;
   color: #999999;
 }
-/* line 59, ../sass/screen.sass */
+/* line 63, ../sass/screen.sass */
 footer .copy li {
   display: inline;
 }
-/* line 63, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 footer .copy li:first-child:before {
   content: "";
 }
-/* line 66, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 footer .copy li:before {
   content: "●";
 }

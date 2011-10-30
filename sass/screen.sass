@@ -1,4 +1,6 @@
 @import "compass/reset"
+@import "compass/css3/box-shadow"
+@import "compass/css3/border-radius"
 @import "layout/*.png"
 
 $PAD: 40px
@@ -40,6 +42,8 @@ a:link, a:visited
     display: table-cell
 
 #inner-container
+    +border-radius(4px)
+    +single-box-shadow(rgba(0, 0, 0, 0.5), 0, 0, 50px)
     width: 510px
     background: white
     background: rgba(255, 255, 255, 0.8)
