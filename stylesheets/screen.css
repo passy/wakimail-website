@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* line 17, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../.gem/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 27, layout */
+.layout-sprite, h1 {
+  background: url('../img/layout-s27ded14696.png') no-repeat;
+}
+
+/* line 6, ../sass/screen.sass */
+body {
+  min-width: 980px;
+  font-family: "Istok Web", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+/* line 11, ../sass/screen.sass */
+h1 {
+  background-position: 0 0;
+  width: 543px;
+  height: 141px;
+  padding-left: 60px;
+  font-size: 250%;
+  font-weight: bold;
+  color: #666666;
+  padding-left: 160px;
+  padding-top: 50px;
+  font-family: Helvetica, Arical, sans-serif;
+}
+
+/* line 23, ../sass/screen.sass */
+a:link, a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+
+/* line 27, ../sass/screen.sass */
+#main {
+  margin: 20px 0 20px 0;
+}
+
+/* line 30, ../sass/screen.sass */
+#outer-container {
+  height: 100%;
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+}
+
+/* line 36, ../sass/screen.sass */
+#container {
+  height: 820px;
+  position: relative;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* line 42, ../sass/screen.sass */
+#inner-container {
+  width: 510px;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  float: left;
+  margin-left: 30px;
+  padding: 40px;
+  position: relative;
+}
+
+/* line 52, ../sass/screen.sass */
+footer .copy {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px dotted #bbbbbb;
+  font-size: 85%;
+  color: #999999;
+}
+/* line 59, ../sass/screen.sass */
+footer .copy li {
+  display: inline;
+}
+/* line 63, ../sass/screen.sass */
+footer .copy li:first-child:before {
+  content: "";
+}
+/* line 66, ../sass/screen.sass */
+footer .copy li:before {
+  content: "●";
+}
+
+/* line 1, ../sass/_supersized.scss */
+#supersized-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  text-indent: -999em;
+  background-color: #111;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 3, ../sass/_supersized.scss */
+#supersized {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -999;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 4, ../sass/_supersized.scss */
+#supersized img {
+  height: auto;
+  width: auto;
+  position: relative;
+  outline: none;
+  border: none;
+  -ms-interpolation-mode: bicubic;
+  image-rendering: optimizeQuality;
+}

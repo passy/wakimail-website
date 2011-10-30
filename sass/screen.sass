@@ -1,0 +1,69 @@
+@import "compass/reset"
+@import "layout/*.png"
+
+$PAD: 40px
+
+body
+    min-width: 980px
+    font-family: 'Istok Web', Helvetica, Arial, sans-serif
+    color: #333
+
+h1
+    +layout-sprite(icon)
+    width: 543px
+    height: 141px
+    padding-left: 60px
+    font-size: 250%
+    font-weight: bold
+    color: #666
+    padding-left: 160px
+    padding-top: 50px
+    font-family: Helvetica, Arical, sans-serif
+
+a:link, a:visited
+    color: #999
+    text-decoration: none
+
+#main
+    margin: ($PAD / 2) 0 ($PAD / 2) 0
+
+#outer-container
+    height: 100%
+    width: 100%
+    display: table
+    vertical-align: middle
+
+#container
+    height: 820px
+    position: relative
+    vertical-align: middle
+    display: table-cell
+
+#inner-container
+    width: 510px
+    background: white
+    background: rgba(255, 255, 255, 0.8)
+    float: left
+    margin-left: 30px
+    padding: $PAD
+    position: relative
+
+footer
+    .copy
+        margin-top: $PAD
+        padding-top: $PAD
+        border-top: 1px dotted #bbb
+        font-size: 85%
+        color: #999
+
+        li
+            display: inline
+
+            &:first-child
+                &:before
+                    content: ""
+
+            &:before
+                content: "●"
+
+@import "supersized"

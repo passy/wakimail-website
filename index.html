@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content=IE=edge,chrome=1>
+
+  <title>WAKiMail — Read your WAK Mail on your Phone</title>
+  <meta name=description content="Android application to read email from www.wak-sh.de">
+  <meta name=author content="Pascal Hartig">
+  <meta name=viewport content=width=device-width,initial-scale=1>
+  <link rel=stylesheet href=stylesheets/screen.css>
+  <link rel=stylesheet href=http://fonts.googleapis.com/css?family=Istok+Web>
+  <script src=js/libs/modernizr-2.0.6.min.js></script>
+</head>
+
+<body>
+    <div id=outer-container>
+        <div id=container>
+            <div id=inner-container>
+                <header>
+                    <h1>WAKiMail</h1>
+                </header>
+                <div id=main role=main>
+                    <p>Read your <a href="http://www.wak-sh.de/">WAK Mail</a>
+                    from your android phone, without having to access the
+                    horrible communication platform.</p>
+                </div>
+                <footer>
+                    <a href="https://market.android.com/details?id=net.rdrei.android.wakimail">
+                        Download from Android Market
+                    </a>
+                    <section class=copy>
+                        <ul>
+                            <li>
+                            <a href="mailto:phartig@rdrei.net">Pascal Hartig</a>
+                            </li><li>
+                            Brombeerring 72c, 24161 Altenholz
+                            </li><li>
+                                <a
+                                    href="http://www.flickr.com/photos/pinksherbet/1382699798/">CC
+                                BG</a>
+                            </li>
+                        </ul>
+                    </section>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+  <script src=//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script src=js/libs/supersized.3.1.3.core.min.js></script>
+  <script>
+    window._gaq = [['_setAccount','UA-587894-9'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js',
+    });
+    $(function () {
+        $.supersized({slides: [
+            {image: "img/background.jpg"}
+        ]});
+    });
+  </script>
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+</body>
+</html>
